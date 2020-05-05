@@ -58,8 +58,17 @@ img {
     text-align: center;
     display: inline-block;
     font-size: 15px;
-    width: 100px;}
-
+    width: 40%;
+        }
+.borderstyle {
+    border-style: none;
+    background-color: #F58634;
+    border-color: White;
+    border-style: Double;
+    border-radius: 5px;
+    text-align: center;   
+    margin-right:125px;
+   }
 
 .center 
 {
@@ -74,7 +83,7 @@ img {
 }
 .centersocialmedia {
     display: block;
-    margin-left: 520px;
+    margin-left: 285px;
     margin-right: auto;
     width: 50%;
 }
@@ -133,15 +142,6 @@ input{display:inline-block;
     margin-right: auto;
 }
 
-.borderstyle {
-    border-style: none;
-    background-color: #F58634;
-    border-color: White;
-    border-style: Double;
-    border-radius: 5px;
-    text-align:center;
-}
-
 .loginpagebutton {
     border: none;
     color: black;
@@ -162,4 +162,59 @@ input{display:inline-block;
     border-radius:10px;
     padding:10px 10px 10px 10px;
     display:block;
+}
+/* Home add page*/
+.rechome {
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 22%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 30px 10px 10px;
+}
+
+.add{
+    border-radius:50px;
+    margin-right:60px;
+    float:right;
+    margin-top:20px;
+    width:80px;
+}
+/*Home Details page*/
+.recdetails {
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    background-color: #28854C;
+    border-radius: 10px;
+    padding: 50px 100px 50px 150px;
+}
+
+.browse {
+    display: block;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px 30px 10px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    color:black;
+    margin-right:50px;
+}
+
+.address{
+    height:50px;
+    display:normal;
+    margin-right:210px;
+}
+.browsed{float:right;
+         display:inline-block;
+         width:50px;
+         margin-right:50%;
+}
+.buttonh{
+    margin-right:2px;
+    width:60px;
 }

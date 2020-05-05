@@ -113,7 +113,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Content\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -127,11 +126,15 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="HomeAdd.aspx" />
+    <Content Include="Homedetails.aspx" />
+    <Content Include="img\Add.png" />
     <Content Include="img\B1.JPG" />
     <Content Include="img\B2.jpg" />
     <Content Include="img\B3.JPG" />
     <Content Include="img\facebook.png" />
     <Content Include="img\GOI.png" />
+    <Content Include="img\home.png" />
     <Content Include="img\img.JPG" />
     <Content Include="img\insta.jpg" />
     <Content Include="img\Ministry.png" />
@@ -200,6 +203,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HomeAdd.aspx.cs">
+      <DependentUpon>HomeAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeAdd.aspx.designer.cs">
+      <DependentUpon>HomeAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Homedetails.aspx.cs">
+      <DependentUpon>Homedetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homedetails.aspx.designer.cs">
+      <DependentUpon>Homedetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

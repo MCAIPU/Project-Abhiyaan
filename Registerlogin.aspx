@@ -64,15 +64,15 @@
               <img  alt="Poshan Abhiyaan" class="auto-style4 logo"  src="img/Poshan.png" /><br />
             <br />
          <div class="center">
-            <asp:Button ID="Button1" runat="server" Class="center button button4" BackColor="#F9425E" BorderColor="White" BorderStyle="Double" ForeColor="White" Text="LOGIN" PostBackUrl="Login.aspx" />
-       <br /> <asp:Button ID="Button2" runat="server" Class="center button borderstyle" Text="REGISTER" />
-            </div>  
+            <asp:Button ID="Button1" runat="server" Class="button borderstyle" BackColor="#F9425E" BorderColor="White" BorderStyle="Double" ForeColor="White" Text="LOGIN" PostBackUrl="Login.aspx" />   <br /><br /> 
+     <asp:Button ID="Button2" runat="server" Class="button borderstyle" Text="REGISTER" />
+              
             <br />
             <br />
-            
+            <br /> <br />
          <div class="centersocialmedia">  <img alt="Twitter" class="auto-style5" src="img/twitter.png" />
             <img alt="Facebook" class="auto-style5 " src="img/facebook.png" />
-            <img alt="Instagram" class="auto-style7 " src="img/insta.jpg" /></div>
+            <img alt="Instagram" class="auto-style7 " src="img/insta.jpg" /></div></div>
     </form>        
 <script>    
 $(document).ready(function(){
