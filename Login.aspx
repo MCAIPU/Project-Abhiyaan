@@ -21,11 +21,21 @@
             <div class="rectangle">  
                 <div class="inner-rectangle">
              <div class="center centerbatch" style="color:white;">
-             <asp:Label ID="Label1" runat="server" Text="User Id"></asp:Label><input id="Text1" class="borderstyle" type="text" /><br /><br /><br />
-              <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label> <input id="Password1" class="borderstyle" type="password" /><br />    
-               
-            <asp:Button ID="Button1" Class=" borderstyle loginpagebutton"  runat="server" Text="LOGIN" />
-            </div>     
+             <asp:Label ID="Label1" runat="server" Text="Phone No."></asp:Label>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" Display="Dynamic" ErrorMessage="Enter phone number"></asp:RequiredFieldValidator>
+                 <br />
+                 <br />
+              <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>   
+                 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" Display="Dynamic" ErrorMessage="Enter password"></asp:RequiredFieldValidator>
+               <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+            <asp:Button ID="Button1" Class=" borderstyle loginpagebutton"  runat="server" Text="LOGIN" OnClick="Login_Click" />
+                 
+            &nbsp;</div>     
                 </div>   <asp:Image ID="Image1" ImageUrl="~/img/Poshan.png" CssClass="imglogin" runat="server" /> 
 </div>
               

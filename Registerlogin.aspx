@@ -64,8 +64,8 @@
               <img  alt="Poshan Abhiyaan" class="auto-style4 logo"  src="img/Poshan.png" /><br />
             <br />
          <div class="center">
-            <asp:Button ID="Button1" runat="server" Class="button borderstyle" BackColor="#F9425E" BorderColor="White" BorderStyle="Double" ForeColor="White" Text="LOGIN" PostBackUrl="Login.aspx" />   <br /><br /> 
-     <asp:Button ID="Button2" runat="server" Class="button borderstyle" Text="REGISTER" />
+            <asp:Button ID="Button1" runat="server" Class="button borderstyle" BackColor="#F9425E" BorderColor="White" BorderStyle="Double" ForeColor="White" Text="LOGIN" PostBackUrl="~/Login.aspx" />   <br /><br /> 
+     <asp:Button ID="Button2" runat="server" Class="button borderstyle" Text="REGISTER" PostBackUrl="~/Register.aspx"/>
               
             <br />
             <br />
